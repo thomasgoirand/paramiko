@@ -48,13 +48,13 @@ Depends: python-crypto (>= 2.1.0-2),
 	${misc:Depends},
 	${python:Depends}
 Provides: ${python:Provides}
-Description: Make ssh v2 connections with Python (Python 2)
+Description: Make ssh v2 connections - Python 2.7
  This is a library for making SSH2 connections (client or server).
  Emphasis is on using SSH2 as an alternative to SSL for making secure
  connections between Python scripts.  All major ciphers and hash methods
  are supported.  SFTP client and server mode are both supported too.
  .
- This is the Python 2 version of the package.
+ This is the Python 2.7 version of the package.
 
 Package: python3-paramiko
 Package-Type: deb
@@ -63,10 +63,10 @@ Depends: python3-crypto (>= 2.1.0-2),
 	${misc:Depends},
 	${python3:Depends}
 Provides: ${python3:Provides}
-Description: Make ssh v2 connections with Python (Python 3)
+Description: Make ssh v2 connections - Python 3.x
  This is a library for making SSH2 connections (client or server).
  Emphasis is on using SSH2 as an alternative to SSL for making secure
  connections between Python scripts.  All major ciphers and hash methods
  are supported.  SFTP client and server mode are both supported too.
  .
- This is the Python 3 version of the package.
+ This is the Python 3.x version of the package.

@@ -5,6 +5,7 @@ paramiko (2.0.0-0.1) experimental; urgency=medium
   * Fixed README -> README.rst to follow upstream.
   * debian/copyright in parseable format 1.0.
   * Standards-Version is now 3.9.8 (no change).
+  * Fixed twice python in short description, avoiding lintian warning.
 
  -- Thomas Goirand <zigo@debian.org>  Wed, 08 Jun 2016 13:45:42 +0000
 
